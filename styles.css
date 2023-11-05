@@ -62,8 +62,6 @@ body {
   /* Animation fluide */
 }
 
-
-
 /* ****************************************************************************
                                     @ACCUEIL
 ******************************************************************************/
@@ -286,12 +284,6 @@ body {
     align-items: center;
   }
 
-  
-
-  
-
-  
-
   .nav-list li {
     margin: 10px 10px;
   }
@@ -362,7 +354,7 @@ body {
 }
 
 /* Styles pour les écrans de taille moyenne et grande (par exemple, les tablettes et les ordinateurs) */
-@media screen and (min-width: 769px) {
+/* @media screen and (min-width: 769px) {
   .nav-list li {
     margin: 10px 20px;
   }
@@ -375,11 +367,6 @@ body {
     font-size: 16px;
   }
 
-  .contact-button {
-    top: 50px;
-    right: 30px;
-    font-size: 16px;
-  }
 
   .apropos h2 {
     font-size: 28px;
@@ -421,5 +408,4 @@ body {
 
   .contact-itemtel {
     font-size: 20px;
-  }
-}
+  } */
