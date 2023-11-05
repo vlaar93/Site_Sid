@@ -292,11 +292,11 @@ body {
 /* Styles pour les petits écrans (par exemple, les smartphones) */
 @media screen and (max-width: 768px) {
     .nav-list li {
-        margin: 10px 30px;
+        margin: 10px 10px;
     }
 
     .accueil h1 {
-        font-size: 36px;
+        font-size: 28px;
     }
 
     .accueil p {
@@ -304,8 +304,8 @@ body {
     }
 
     .contact-button {
-        top: 50px;
-        right: 30px;
+        top: 30px;
+        right: 20px;
         font-size: 14px;
     }
 
@@ -318,11 +318,11 @@ body {
     }
 
     .banner-image {
-        width: 80%;
+        width: 100%;
     }
 
     .service-item {
-        margin: 20px 20px;
+        margin: 20px 10px;
     }
 
     .circle-image {
@@ -344,7 +344,7 @@ body {
     }
 
     .gps-image {
-        width: 80%;
+        width: 100%;
     }
 
     .contact-itemtel {
@@ -352,14 +352,14 @@ body {
     }
 }
 
-/* Styles pour les écrans de taille moyenne (par exemple, les tablettes) */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+/* Styles pour les écrans de taille moyenne et grande (par exemple, les tablettes et les ordinateurs) */
+@media screen and (min-width: 769px) {
     .nav-list li {
-        margin: 10px 40px;
+        margin: 10px 20px;
     }
 
     .accueil h1 {
-        font-size: 40px;
+        font-size: 36px;
     }
 
     .accueil p {
@@ -367,9 +367,51 @@ body {
     }
 
     .contact-button {
-        top: 70px;
-        right: 40px;
+        top: 50px;
+        right: 30px;
         font-size: 16px;
+    }
+
+    .apropos h2 {
+        font-size: 28px;
+    }
+
+    .apropos p {
+        font-size: 18px;
+    }
+
+    .banner-image {
+        width: 80%;
+    }
+
+    .service-item {
+        margin: 20px 30px;
+    }
+
+    .circle-image {
+        width: 200px;
+        height: 200px;
+    }
+
+    .service-item h3 {
+        font-size: 18px;
+    }
+
+    .service-item p {
+        font-size: 16px;
+        width: 600px;
+    }
+
+    .contact-item {
+        padding: 20px;
+    }
+
+    .gps-image {
+        width: 60%;
+    }
+
+    .contact-itemtel {
+        font-size: 20px;
     }
 }
 
