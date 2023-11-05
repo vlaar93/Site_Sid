@@ -292,7 +292,16 @@ body {
 /* Styles pour les petits écrans (par exemple, les smartphones) */
 @media screen and (max-width: 768px) {
     .nav-list li {
-        margin: 10px 10px;
+        margin: 10px 5px;
+    }
+
+    .nav-list a {
+        font-size: 14px; /* Ajustez la taille du texte pour les éléments de la navbar */
+    }
+
+    .contact-button {
+        position: static; /* Changez la position du bouton pour qu'il soit statique */
+        margin-top: 10px; /* Ajoutez une marge supérieure pour séparer le bouton de la navbar */
     }
 
     .accueil h1 {
