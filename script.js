@@ -35,5 +35,10 @@ document.addEventListener("DOMContentLoaded", function () {
             behavior: "smooth"
         });
     });
+
+    function toggleMenu() {
+        var menuList = document.querySelector('.nav-list');
+        menuList.classList.toggle('menu-active');
+    }
 });
 
