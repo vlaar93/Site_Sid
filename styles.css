@@ -296,9 +296,6 @@ body {
         display: none; /* Masquez la liste de la navbar par défaut */
     }
 
-    .menu-icon {
-        display: block; /* Affichez le bouton du menu burger */
-    }
 
     .menu-icon img {
         width: 30px; /* Ajustez la taille de l'icône du menu burger */
