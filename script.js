@@ -36,9 +36,9 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
-    function toggleMenu() {
-        var menuList = document.querySelector('.nav-list');
-        menuList.classList.toggle('menu-active');
-    }
 });
 
+function toggleMenu() {
+    var menuList = document.querySelector('.nav-list');
+    menuList.classList.toggle('menu-active');
+}
