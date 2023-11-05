@@ -62,6 +62,8 @@ body {
   /* Animation fluide */
 }
 
+
+
 /* ****************************************************************************
                                     @ACCUEIL
 ******************************************************************************/
@@ -284,28 +286,14 @@ body {
     align-items: center;
   }
 
-  .menu-icon {
-    display: none; /* Masquez le menu burger sur les grands écrans */
-  }
+  
 
-  .menu-icon img {
-    width: 30px; /* Ajustez la taille de l'icône du menu burger */
-    height: 30px;
-    cursor: pointer;
-  }
+  
 
-  .menu-active .nav-list {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    width: 100%;
-    background-color: #111;
-    z-index: 1000;
-  }
+  
 
   .nav-list li {
-    margin: 10px 5px;
+    margin: 10px 10px;
   }
 
   .nav-list a {
