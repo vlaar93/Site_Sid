@@ -2,24 +2,24 @@
                                     @GENERAL
 ******************************************************************************/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .center-content {
-    position: relative;
-    text-align: center;
+  position: relative;
+  text-align: center;
 }
 
 body {
-    font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 .section {
-    padding: 50px 0;
-    text-align: center;
-    color: white;
+  padding: 50px 0;
+  text-align: center;
+  color: white;
 }
 
 /* ****************************************************************************
@@ -27,140 +27,135 @@ body {
 ******************************************************************************/
 
 .navbar {
-    background-color: #111;
-    padding: 5px 0;
-    position: fixed;
-    /* Rendre la navbar fixe */
-    width: 100%;
-    /* Utiliser toute la largeur de l'écran */
-    top: 0;
-    /* Aligner en haut */
-    z-index: 1000;
-    /* Pour s'assurer que la navbar est au-dessus du contenu */
+  background-color: #111;
+  padding: 5px 0;
+  position: fixed;
+  /* Rendre la navbar fixe */
+  width: 100%;
+  /* Utiliser toute la largeur de l'écran */
+  top: 0;
+  /* Aligner en haut */
+  z-index: 1000;
+  /* Pour s'assurer que la navbar est au-dessus du contenu */
 }
 
 .nav-list {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-
+  list-style: none;
+  display: flex;
+  justify-content: center;
 }
 
 .nav-list li {
-    margin: 10px 60px;
+  margin: 10px 60px;
 }
 
 .nav-list a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
-
-
 
 .nav-list a:hover {
-    color: #3498db;
-    /* Couleur au survol */
-    transition: color 0.3s ease;
-    /* Animation fluide */
+  color: #3498db;
+  /* Couleur au survol */
+  transition: color 0.3s ease;
+  /* Animation fluide */
 }
-
 
 /* ****************************************************************************
                                     @ACCUEIL
 ******************************************************************************/
 
 .accueil {
-    background-color: black;
-    color: white;
-    background-image: url('.//images/handshakeLOW.jpg');
-    /* Chemin vers votre image */
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    /* Ajustez la hauteur selon vos besoins */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  background-color: black;
+  color: white;
+  background-image: url(".//images/handshakeLOW.jpg");
+  /* Chemin vers votre image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  /* Ajustez la hauteur selon vos besoins */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .accueil h1 {
-    font-size: 50px;
-    font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    /* Ajoute une ombre noire */
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  /* Ajoute une ombre noire */
 }
 
 .accueil p {
-    font-size: 15px;
-    margin-top: 25px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  font-size: 15px;
+  margin-top: 25px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .contact-button {
-    position: absolute;
-    top: 100px;
-    right: 50px;
-    background-color: #00ba00;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 20px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    font-weight: bold;
+  position: absolute;
+  top: 100px;
+  right: 50px;
+  background-color: #00ba00;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  font-weight: bold;
 }
 
 .contact-button:hover {
-    background-color: #2980b9;
+  background-color: #2980b9;
 }
 
 /* ****************************************************************************
                                     @A PROPOS
 ******************************************************************************/
 
-
 .apropos {
-    background-color: #f1f1f1;
-    /* Couleur "taupe" */
-    color: black;
-    padding: 100px 0;
-    text-align: center;
-    margin: 0 auto;
+  background-color: #f1f1f1;
+  /* Couleur "taupe" */
+  color: black;
+  padding: 100px 0;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .apropos h2 {
-    font-size: 28px;
-    font-weight: bold;
-    margin-bottom: 35px;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 35px;
 }
 
 .apropos p {
-    font-size: 18px;
-    margin-top: 50px;
-    text-align: justify;
-    /* Centrage horizontal */
-    max-width: 1100px;
-    /* Limiter la largeur */
-    margin-left: auto;
-    margin-right: auto;
+  font-size: 18px;
+  margin-top: 50px;
+  text-align: justify;
+  /* Centrage horizontal */
+  max-width: 1100px;
+  /* Limiter la largeur */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .slogan {
-    text-align: center;
-    font-style: italic;
-    font-size: 18px;
-    font-weight: bold;
+  text-align: center;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .banner-image {
-    max-width: 100%;
-    width: 60%;
-    height: auto;
-    margin-top: 60px;
-    border-radius: 20px;
-    border: 1px double;
+  max-width: 100%;
+  width: 60%;
+  height: auto;
+  margin-top: 60px;
+  border-radius: 20px;
+  border: 1px double;
 }
 
 /* ****************************************************************************
@@ -168,57 +163,51 @@ body {
 ******************************************************************************/
 
 .services {
-    background-color: #f1f1f1;
-    color: #000000;
+  background-color: #f1f1f1;
+  color: #000000;
 }
 .section h2 {
-   font-size: 28px;
-   color: #000000;
+  font-size: 28px;
+  color: #000000;
 }
 
-
 .service-row {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
 
 .service-item {
-    text-align: center;
-    margin: 20px 150px;
+  text-align: center;
+  margin: 20px 150px;
 }
 
-
-
 .circle-image {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .service-item h3 {
-    font-size: 18px;
-    margin-top: 10px;
-    font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: bold;
 }
 
 .service-item p {
-    font-size: 16px;
-    margin-top: 20px;
-    text-align: justify;
-    width: 600px;
+  font-size: 16px;
+  margin-top: 20px;
+  text-align: justify;
+  width: 600px;
 }
-
-
 
 /* ****************************************************************************
                                     @TEMOIGNAGNES
 ******************************************************************************/
 
-
 .temoignages {
-    background-color: #f39c12;
+  background-color: #f39c12;
 }
 
 /* ****************************************************************************
@@ -226,63 +215,61 @@ body {
 ******************************************************************************/
 
 .contact {
-    background-color: #f1f1f1;
-    color: #000000;
+  background-color: #f1f1f1;
+  color: #000000;
 }
 
 .contact-info {
-    font-size: 18px;
-    align-items: center;
-    margin-top: 30px;
+  font-size: 18px;
+  align-items: center;
+  margin-top: 30px;
 }
 
 .contact-item {
-    text-align: center;
-    padding: 20px;
+  text-align: center;
+  padding: 20px;
 }
 
-
 .gps-image {
-    max-width: 100%;
-    width: 60%;
-    height: auto;
-    margin-top: 30px;
-    border-radius: 20px;
-    border: 1px black double;
+  max-width: 100%;
+  width: 60%;
+  height: auto;
+  margin-top: 30px;
+  border-radius: 20px;
+  border: 1px black double;
 }
 
 .contact-itemtel {
-    text-align: center;
-    padding: 20px;
-    font-weight: bold;
-    font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .scroll-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    padding: 10px;
-    cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  cursor: pointer;
 }
 
 .arrow-icon {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 }
 
 /* ****************************************************************************
                                     @FOOTER
 ******************************************************************************/
 
-
 .footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    font-weight: bold;
-    font-size: 12px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 12px;
 }
 
 /* ****************************************************************************
@@ -291,160 +278,160 @@ body {
 
 /* Styles pour les petits écrans (par exemple, les smartphones) */
 @media screen and (max-width: 768px) {
+  .nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .nav-list {
-        display: none; /* Masquez la liste de la navbar par défaut */
-    }
+  .menu-icon {
+    display: none; /* Masquez le menu burger sur les grands écrans */
+  }
 
+  .menu-icon img {
+    width: 30px; /* Ajustez la taille de l'icône du menu burger */
+    height: 30px;
+    cursor: pointer;
+  }
 
-    .menu-icon img {
-        width: 30px; /* Ajustez la taille de l'icône du menu burger */
-        height: 30px;
-        cursor: pointer;
-    }
+  .menu-active .nav-list {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    background-color: #111;
+    z-index: 1000;
+  }
 
-    .menu-active .nav-list {
-        display: flex; /* Affichez la liste de la navbar lorsque le menu burger est activé */
-        flex-direction: column;
-        position: absolute;
-        top: 60px; /* Ajustez la position verticale du menu déroulant */
-        width: 100%;
-        background-color: #111; /* Couleur de fond du menu déroulant */
-        z-index: 1000;
-    }
+  .nav-list li {
+    margin: 10px 5px;
+  }
 
+  .nav-list a {
+    font-size: 14px; /* Ajustez la taille du texte pour les éléments de la navbar */
+  }
 
-    .nav-list li {
-        margin: 10px 5px;
-    }
+  .contact-button {
+    margin-top: 30px; /* Ajoutez une marge supérieure pour séparer le bouton de la navbar */
+  }
 
-    .nav-list a {
-        font-size: 14px; /* Ajustez la taille du texte pour les éléments de la navbar */
-    }
+  .accueil h1 {
+    font-size: 28px;
+  }
 
-    .contact-button {
-        margin-top: 30px; /* Ajoutez une marge supérieure pour séparer le bouton de la navbar */
-    }
+  .accueil p {
+    font-size: 14px;
+  }
 
-    .accueil h1 {
-        font-size: 28px;
-    }
+  .contact-button {
+    top: 30px;
+    right: 20px;
+    font-size: 14px;
+  }
 
-    .accueil p {
-        font-size: 14px;
-    }
+  .apropos h2 {
+    font-size: 24px;
+  }
 
-    .contact-button {
-        top: 30px;
-        right: 20px;
-        font-size: 14px;
-    }
+  .apropos p {
+    font-size: 16px;
+  }
 
-    .apropos h2 {
-        font-size: 24px;
-    }
+  .banner-image {
+    width: 100%;
+  }
 
-    .apropos p {
-        font-size: 16px;
-    }
+  .service-item {
+    margin: 20px 10px;
+  }
 
-    .banner-image {
-        width: 100%;
-    }
+  .circle-image {
+    width: 150px;
+    height: 150px;
+  }
 
-    .service-item {
-        margin: 20px 10px;
-    }
+  .service-item h3 {
+    font-size: 16px;
+  }
 
-    .circle-image {
-        width: 150px;
-        height: 150px;
-    }
+  .service-item p {
+    font-size: 14px;
+    width: 100%;
+  }
 
-    .service-item h3 {
-        font-size: 16px;
-    }
+  .contact-item {
+    padding: 10px;
+  }
 
-    .service-item p {
-        font-size: 14px;
-        width: 100%;
-    }
+  .gps-image {
+    width: 100%;
+  }
 
-    .contact-item {
-        padding: 10px;
-    }
-
-    .gps-image {
-        width: 100%;
-    }
-
-    .contact-itemtel {
-        font-size: 16px;
-    }
+  .contact-itemtel {
+    font-size: 16px;
+  }
 }
 
 /* Styles pour les écrans de taille moyenne et grande (par exemple, les tablettes et les ordinateurs) */
 @media screen and (min-width: 769px) {
-    .nav-list li {
-        margin: 10px 20px;
-    }
+  .nav-list li {
+    margin: 10px 20px;
+  }
 
-    .accueil h1 {
-        font-size: 36px;
-    }
+  .accueil h1 {
+    font-size: 36px;
+  }
 
-    .accueil p {
-        font-size: 16px;
-    }
+  .accueil p {
+    font-size: 16px;
+  }
 
-    .contact-button {
-        top: 50px;
-        right: 30px;
-        font-size: 16px;
-    }
+  .contact-button {
+    top: 50px;
+    right: 30px;
+    font-size: 16px;
+  }
 
-    .apropos h2 {
-        font-size: 28px;
-    }
+  .apropos h2 {
+    font-size: 28px;
+  }
 
-    .apropos p {
-        font-size: 18px;
-    }
+  .apropos p {
+    font-size: 18px;
+  }
 
-    .banner-image {
-        width: 80%;
-    }
+  .banner-image {
+    width: 80%;
+  }
 
-    .service-item {
-        margin: 20px 30px;
-    }
+  .service-item {
+    margin: 20px 30px;
+  }
 
-    .circle-image {
-        width: 200px;
-        height: 200px;
-    }
+  .circle-image {
+    width: 200px;
+    height: 200px;
+  }
 
-    .service-item h3 {
-        font-size: 18px;
-    }
+  .service-item h3 {
+    font-size: 18px;
+  }
 
-    .service-item p {
-        font-size: 16px;
-        width: 600px;
-    }
+  .service-item p {
+    font-size: 16px;
+    width: 600px;
+  }
 
-    .contact-item {
-        padding: 20px;
-    }
+  .contact-item {
+    padding: 20px;
+  }
 
-    .gps-image {
-        width: 60%;
-    }
+  .gps-image {
+    width: 60%;
+  }
 
-    .contact-itemtel {
-        font-size: 20px;
-    }
+  .contact-itemtel {
+    font-size: 20px;
+  }
 }
-
-
-
