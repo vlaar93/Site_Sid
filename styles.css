@@ -291,6 +291,32 @@ body {
 
 /* Styles pour les petits écrans (par exemple, les smartphones) */
 @media screen and (max-width: 768px) {
+
+    .nav-list {
+        display: none; /* Masquez la liste de la navbar par défaut */
+    }
+
+    .menu-icon {
+        display: block; /* Affichez le bouton du menu burger */
+    }
+
+    .menu-icon img {
+        width: 30px; /* Ajustez la taille de l'icône du menu burger */
+        height: 30px;
+        cursor: pointer;
+    }
+
+    .menu-active .nav-list {
+        display: flex; /* Affichez la liste de la navbar lorsque le menu burger est activé */
+        flex-direction: column;
+        position: absolute;
+        top: 60px; /* Ajustez la position verticale du menu déroulant */
+        width: 100%;
+        background-color: #111; /* Couleur de fond du menu déroulant */
+        z-index: 1000;
+    }
+
+
     .nav-list li {
         margin: 10px 5px;
     }
