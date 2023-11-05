@@ -300,8 +300,7 @@ body {
     }
 
     .contact-button {
-        position: static; /* Changez la position du bouton pour qu'il soit statique */
-        margin-top: 10px; /* Ajoutez une marge supérieure pour séparer le bouton de la navbar */
+        margin-top: 30px; /* Ajoutez une marge supérieure pour séparer le bouton de la navbar */
     }
 
     .accueil h1 {
